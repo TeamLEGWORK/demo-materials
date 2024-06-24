@@ -396,16 +396,6 @@
  /*********************************************
   * Custom
   *********************************************/
- 
- 
-.col {
-    display: flex;
-    flex-direction: column;
-}
-.row {
-    display: flex;
-    flex-direction: row;
-}
 
 p{
     color: rgb(200, 200, 200);
@@ -429,9 +419,8 @@ p{
 }
 
 .citation{
-    color: grey;
-    font-size: 12pt;
-    margin: 0px;
+    color: rgb(76, 151, 249);
+    margin: 0px!important;
     padding: 0%;
 }
 
@@ -441,4 +430,8 @@ p{
 
 pre {
     font-size: 0.75em!important;
+}
+
+.reveal .fragment.semi-fade-out.visible {
+    opacity: 0.5!important;
 }
