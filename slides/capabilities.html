@@ -3,7 +3,57 @@
     What can (and can't!) LEGWORK do?
 </section>
 
-<section>
+<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+    <div class="r-hstack justify-center">
+        <div data-id="box1" class="box box-purple off">Sensitivity curves</div>
+        <div data-id="box2" class="box box-pink off">Strains</div>
+        <div data-id="box3" class="box box-orange off">Visualisations</div>
+    </div>
+</section>
+<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+    <div class="r-hstack justify-center">
+        <div data-id="box1" data-auto-animate-delay="0" class="box box-purple" style="width: 150px; height: 100px;"></div>
+        <div data-id="box2" data-auto-animate-delay="0.1" class="box box-pink" style="width: 150px; height: 100px;"></div>
+        <div data-id="box3" data-auto-animate-delay="0.2" class="box box-orange" style="width: 150px; height: 100px;"></div>
+    </div>
+    <h2 style="margin-top: 20px;">LEGWORK capabilities</h2>
+</section>
+<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+    <div class="r-stack">
+        <div data-id="box1" class="box box-purple" style="width: 300px; height: 300px;"></div>
+        <div data-id="box2" class="box box-pink" style="width: 200px; height: 200px;"></div>
+        <div data-id="box3" class="box box-orange" style="width: 100px; height: 100px;"></div>
+    </div>
+    <h2 style="margin-top: 20px;">LEGWORK capabilities</h2>
+</section>
+<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+    <div class="r-stack">
+        <div data-id="box1" class="box box-purple" style="width: 300px; height: 300px;"></div>
+        <div data-id="box2" class="box box-pink" style="width: 200px; height: 200px;"></div>
+        <div data-id="box3" class="box box-orange" style="width: 100px; height: 100px; line-height:6rem; font-weight:bold">SNR</div>
+    </div>
+    <h2 style="margin-top: 20px;">LEGWORK capabilities</h2>
+</section>
+<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+    <div class="row">
+        <div class="col-5">
+            <div class="r-stack">
+                <div data-id="box1" class="box box-purple" style="width: 300px; height: 300px;"></div>
+                <div data-id="box2" class="box box-pink" style="width: 200px; height: 200px;"></div>
+                <div data-id="box3" class="box box-orange" style="width: 100px; height: 100px; line-height:6rem; font-weight:bold">SNR</div>
+            </div>
+        </div>
+        <div class="col-2 text-center align-self-center" style="font-size:100px">
+            ➡️
+        </div>
+        <div class="col-5">
+            <img class="r-stretch" src="slides/assets/fig2_wagg2022.png" style="height:300px">
+        </div>
+    </div>
+    <h2 style="margin-top: 20px;">LEGWORK capabilities</h2>
+</section>
+
+<!-- <section>
     <div class="row">
         <div class="col">
             <h4>LEGWORK can:</h4>
@@ -16,7 +66,7 @@
             <img class="r-stretch fragment fade-up" data-fragment-index="4" src="slides/assets/fig2_wagg2022.png" style="height:300px">
         </div>
     </div>
-</section>
+</section> -->
 
 <section>
     <p>LEGWORK implements <span class='theme-col'>post-Newtonian approximations</span> for its calculations<span class="fragment fade-up">...it can only be used for sources where these approximations are valid!</span></p>
@@ -24,7 +74,7 @@
 
 <section data-auto-animate>
     <div class="row">
-        <div data-id='cans' class="col">
+        <div class="col">
             <h4>LEGWORK can:</h4>
             <ul>
                 <li>Calculate <span class='theme-col'>gravitational-wave strains</span> for any harmonic</li>
@@ -39,7 +89,7 @@
 
 <section data-auto-animate>
     <div class="row">
-        <div data-id='cans' class="col-6" style="opacity:0.5">
+        <div class="col-6" style="opacity:0.5">
             <h4>LEGWORK can:</h4>
             <ul style="font-size: 0.8em">
                 <li>Calculate <span class='theme-col'>gravitational-wave strains</span> for any harmonic</li>
@@ -52,10 +102,11 @@
         <div class="col-6">
             <h4>LEGWORK can't:</h4>
             <ul style="font-size: 0.8em">
-                <li class="fragment fade-right">Be applied to supermassive black hole binaries</li>
-                <li class="fragment fade-right">Perform computations for EMRIs</li>
-                <li class="fragment fade-right">Do your laundry</li>
+                <li class="fragment fade-right" data-fragment-index="1">Be applied to supermassive black hole binaries</li>
+                <li class="fragment fade-right" data-fragment-index="2">Perform computations for EMRIs</li>
+                <li class="fragment fade-right" data-fragment-index="3">Do your laundry</li>
             </ul>
+            <img class="r-stretch fragment fade-right"  data-fragment-index="3" src="slides/assets/robot-laundry.jpg" style="height:300px">
         </div>
     </div>
 </section>

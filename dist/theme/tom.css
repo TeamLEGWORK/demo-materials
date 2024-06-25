@@ -435,3 +435,23 @@ pre {
 .reveal .fragment.semi-fade-out.visible {
     opacity: 0.5!important;
 }
+
+.box {
+    margin: 10px;
+    padding: 1.5rem;
+    border-radius: 25px;
+}
+
+.box.off {
+    background: #999;
+}
+
+.box.box-purple {
+    background: #b11bda;
+}
+.box.box-pink {
+    background: #f23c7f;
+}
+.box.box-orange {
+    background: #ea921e;
+}
