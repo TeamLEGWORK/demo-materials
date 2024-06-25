@@ -20,6 +20,8 @@
   *********************************************/
  :root {
    --primary-col: rgb(144, 85, 227);
+   --secondary-col: #f23c7f;
+   --tertiary-col: #ea921e;
    --r-background-color: #222;
    --r-main-font: Ubuntu, sans-serif;
    --r-main-font-size: 40px;
@@ -426,6 +428,13 @@ p{
 
 .theme-col {
     color: var(--primary-col)!important;
+}
+
+.highlight {
+    color: var(--secondary-col)!important;
+}
+.highlight-3 {
+    color: var(--tertiary-col)!important;
 }
 
 pre {
