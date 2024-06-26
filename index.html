@@ -4,63 +4,29 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>LEGWORK demo</title>
-
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/tom.css">
+		<title>LEGWORK Demo Materials</title>
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-        <link rel="stylesheet" href="plugin/bootstrap/bootstrap-grid.min.css">
-        <link rel="stylesheet" href="plugin/bootstrap/bootstrap-utilities.min.css">
+        <link rel="stylesheet" href="plugin/bootstrap/bootstrap.min.css">
 	</head>
 	<body>
-		<div class="reveal">
-			<div class="slides">
-                <section data-external="slides/title.html"></section>
-                <section data-external="slides/what-is-it.html"></section>
-                <section data-external="slides/installation.html"></section>
-                <section data-external="slides/capabilities.html"></section>
-                <section data-external="slides/motivation.html"></section>
-                <section data-external="slides/case_study.html"></section>
-                <section data-external="slides/demo-1.html"></section>
-                <section data-external="slides/demo-2.html"></section>
-                <section data-external="slides/demo-3.html"></section>
-                <section data-external="slides/software-citation-station.html"></section>
-                <section data-external="slides/conclusions.html"></section>
-			</div>
-		</div>
-
-
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script src="plugin/math/math.js"></script>
-
-
-
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX],
-
-				dependencies:[
-					{
-						src: 'plugin/external/external.js',
-						condition: function() {
-							return !!document.querySelector( '[data-external],[data-external-replace]' );
-						}
-					},
-				],
-
-                width: 1200
-			});
-		</script>
+        <div class="text-center p-5 bg-body-tertiary rounded-3">
+            <div class="container-fluid py-5">
+              <h1 class="display-5 fw-bold">Demo materials for LEGWORK</h1>
+              <p class="fs-4">This site contains slides and notebooks used in LEGWORK demos.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card-group">
+                <div class="card" style="max-width: 500px">
+                    <iframe src="gwanw2024/main.html"></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">GWANW 2024</h5>
+                        <a class="btn btn-primary" href="gwanw2024/main.html">Launch fullscreen slides</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</body>
 </html>
